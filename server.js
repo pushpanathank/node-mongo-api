@@ -18,6 +18,10 @@ app.use(cors());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.json());
 
+app.get('/', function(req, res) {
+    res.sendFile(__dirname + '/index.html');
+});
+
 const userRouter = require('./routes/user');
 app.use('/user', userRouter);
 
