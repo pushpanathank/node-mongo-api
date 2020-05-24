@@ -1,12 +1,12 @@
 {
-  "name": "api",
+  "name": "node-mongo-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js"
   },
-  "author": "",
+  "author": "Pushpanathan K",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -17,5 +17,8 @@
   "devDependencies": {
     "dotenv": "^8.0.0",
     "nodemon": "^1.19.1"
+  },
+  "engines": {
+    "node": "13.x"
   }
 }
